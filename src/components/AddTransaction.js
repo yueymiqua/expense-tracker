@@ -30,7 +30,7 @@ function AddTransaction() {
         <div className="form-control">
           <label htmlFor="amount"
             >Amount <br />
-            (negative - expense, positive - income)</label
+            (negative - for expense, positive + for income)</label
           >
           <input type="number" value={amount} onChange={(event) => setAmount(event.target.value)} placeholder="Enter amount..." />
         </div>
