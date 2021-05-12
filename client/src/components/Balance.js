@@ -9,8 +9,8 @@ function Balance() {
 
   return (
     <>
-      <h4>Balance</h4>
-      <h1>${numberWithCommas(total)}</h1>
+      <h4 className="balance-header">Balance</h4>
+      <h1 className="balance-total">${numberWithCommas(total)}</h1>
     </>
   )
 }

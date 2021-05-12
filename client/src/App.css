@@ -58,6 +58,19 @@ h4 {
   border-right: 1px solid #dedede;
 }
 
+.app-header {
+  text-align: center;
+  font-size: 3vw;
+}
+
+.balance-header,
+.balance-total {
+  text-align: center;
+  background: #344fa1;
+  color: ivory;
+  padding: 0.5rem;
+}
+
 .money {
   font-size: 20px;
   letter-spacing: 1px;
@@ -85,11 +98,12 @@ input[type='number'] {
   font-size: 16px;
   padding: 10px;
   width: 100%;
+  background-color: #f0ebcc;
 }
 
 .btn {
   cursor: pointer;
-  background-color: #9c88ff;
+  background-color: #e2703a;
   box-shadow: var(--box-shadow);
   color: #fff;
   border: 0;
@@ -124,10 +138,12 @@ input[type='number'] {
 
 .list li.plus {
   border-right: 5px solid #2ecc71;
+  background-color: #c6ffc1;
 }
 
 .list li.minus {
   border-right: 5px solid #c0392b;
+  background-color: #ffc1b6;
 }
 
 .delete-btn {
