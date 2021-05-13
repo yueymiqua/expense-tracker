@@ -1,5 +1,7 @@
 # Expense-Tracker Application
 
+![flix-for-fun-login-page](/client/src/IMG/readme-screen.png)
+
 This is an application that allows users to keep track of their transaction history, for both income and expense!
 Built with React for the front-end, Node/Express for the back-end, Mongoose for the business-layer logic, and MongoDB for the noSQL database.
 
