@@ -42,7 +42,7 @@ function AddTransaction() {
             >Amount <br />
             (negative - for expense, positive + for income)</label
           >
-          <input type="number" value={amount} onChange={(event) => setAmount(event.target.value)} placeholder="Enter amount..." />
+          <input type="number" value={amount} onChange={(event) => setAmount(event.target.value)} />
         </div>
         <button className="btn">Add transaction</button>
       </form>
